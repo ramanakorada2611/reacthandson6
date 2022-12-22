@@ -1,0 +1,119 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    background-image: linear-gradient(aqua,white,rgb(237, 159, 159));
+    min-height: 650px;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40px;
+   
+}
+.link{
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 2px 2px red;
+}
+.link:hover{
+    color: black;
+    text-shadow: 2px 2px aqua;
+}
+.text{
+    color:red;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+.center{
+    color:red;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+.move{
+   float: right;
+   position: relative;
+   top:-45px;
+   left:-10px;
+   background-color: black;
+   color:aqua;
+}
+table{
+    font-size: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+td{
+    text-align: center;
+    border: 1px solid red;
+}
+th{
+    text-align: center;
+    border: 1px solid black;
+    color: cadetblue;
+    text-shadow: 3px 3px black;
+}
+.studentpage{
+    color:red;
+    text-shadow: 1px 1px black;
+}
+.homepage{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 290px 0px;
+    text-shadow: 1px 1px black;
+    color:red;
+}
+.contactpage{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 290px 0px;
+    text-shadow: 1px 1px black;
+    color:red;
+}
+button{
+    border: none;
+}
+.headerlink{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+header{
+    background-color: white;
+}
+form{
+    position: relative;
+    top: 150px;
+    height: 300px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    margin-left: 100px;
+}
+.data1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.buttons{
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left:465px;
+}
+button{
+    margin-left: 20px;
+}
